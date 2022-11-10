@@ -1,0 +1,71 @@
+{
+  "companyId": "175f1e76-ed6f-47c9-87cf-6211439894ad",
+  "connectorIds": [
+    "httpConnector"
+  ],
+  "createdDate": 1668111747723,
+  "currentVersion": 0,
+  "customerId": "bb5fef4347dc9293873ae12ee9e73f1c",
+  "deployedDate": 1668111749447,
+  "description": "",
+  "flowStatus": "enabled",
+  "name": "trialsflow",
+  "updatedDate": 1668111749447,
+  "flowId": "787231d5c76a35405e83175a9c241a7b",
+  "versionId": 7,
+  "graphData": {
+    "elements": {
+      "nodes": [
+        {
+          "data": {
+            "id": "rftw7xhl05",
+            "nodeType": "CONNECTION",
+            "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+            "connectorId": "httpConnector",
+            "name": "Http",
+            "label": "Http",
+            "status": "configured",
+            "capabilityName": "customHtmlMessage",
+            "type": "trigger",
+            "properties": {
+              "message": {
+                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"This is a trial flow. \"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"variable.svg\",\n        \"url\": \"companywidevar\",\n        \"data\": \"{{global.company.variables.companywidevar}}\",\n        \"tooltip\": \"{{global.company.variables.companywidevar}}\",\n        \"children\": [\n          {\n            \"text\": \"companywidevar\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+              }
+            }
+          },
+          "position": {
+            "x": 277,
+            "y": 236
+          },
+          "group": "nodes",
+          "removed": false,
+          "selected": false,
+          "selectable": true,
+          "locked": false,
+          "grabbable": true,
+          "pannable": false,
+          "classes": ""
+        }
+      ]
+    },
+    "data": {},
+    "zoomingEnabled": true,
+    "userZoomingEnabled": true,
+    "zoom": 1,
+    "minZoom": 1e-50,
+    "maxZoom": 1e+50,
+    "panningEnabled": true,
+    "userPanningEnabled": true,
+    "pan": {
+      "x": 0,
+      "y": 0
+    },
+    "boxSelectionEnabled": true,
+    "renderer": {
+      "name": "null"
+    }
+  },
+  "flowColor": "#AFD5FF",
+  "savedDate": 1668111747704,
+  "variables": []
+}
