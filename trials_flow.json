@@ -29,7 +29,7 @@
             "type": "trigger",
             "properties": {
               "message": {
-                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"This is a trial flow. \"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"variable.svg\",\n        \"url\": \"companywidevar\",\n        \"data\": \"{{global.company.variables.companywidevar}}\",\n        \"tooltip\": \"{{global.company.variables.companywidevar}}\",\n        \"children\": [\n          {\n            \"text\": \"companywidevar\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"This is a the ultimate flow. \"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"variable.svg\",\n        \"url\": \"companywidevar\",\n        \"data\": \"{{global.company.variables.companywidevar}}\",\n        \"tooltip\": \"{{global.company.variables.companywidevar}}\",\n        \"children\": [\n          {\n            \"text\": \"companywidevar\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
               }
             }
           },
